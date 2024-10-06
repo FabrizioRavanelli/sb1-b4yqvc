@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-blue: #004D98;
+  --color-primary-red: #A50044;
+  --color-accent-gold: #EDBB00;
+  --color-background-light: #F0F4F8;
+  --color-text-dark: #181733;
+  --color-text-light: #FFFFFF;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--color-background-light);
+  color: var(--color-text-dark);
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors;
+}
+
+.btn-secondary {
+  @apply bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-6;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--color-primary-blue);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--color-primary-blue);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

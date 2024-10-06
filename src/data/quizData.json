@@ -1,0 +1,54 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "FC Barcelona History",
+      "description": "Test your knowledge about the history of FC Barcelona",
+      "questions": [
+        {
+          "id": 1,
+          "text": "In which year was FC Barcelona founded?",
+          "options": ["1899", "1902", "1905", "1910"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "text": "Who was the founder of FC Barcelona?",
+          "options": ["Joan Gamper", "Josep Sunyol", "Agustí Montal", "Josep Lluís Núñez"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "text": "What was the original name of FC Barcelona?",
+          "options": ["Barcelona Football Club", "Foot-Ball Club Barcelona", "Club de Fútbol Barcelona", "Barça Atlètic"],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Barça Legends",
+      "description": "How well do you know the legendary players of FC Barcelona?",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Who is FC Barcelona's all-time top scorer?",
+          "options": ["Lionel Messi", "César Rodríguez", "Luis Suárez", "László Kubala"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 2,
+          "text": "Which player is known as 'The Flying Dutchman' and played for Barcelona from 1973 to 1978?",
+          "options": ["Johan Cruyff", "Ronald Koeman", "Frank Rijkaard", "Patrick Kluivert"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "text": "Who scored the winning goal in the 1992 European Cup final?",
+          "options": ["Hristo Stoichkov", "Ronald Koeman", "Michael Laudrup", "Andoni Zubizarreta"],
+          "correctAnswer": 1
+        }
+      ]
+    }
+  ]
+}
